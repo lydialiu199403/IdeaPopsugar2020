@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8056790d-3191-447f-abf6-90e17014460e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SignIn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SignIn.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT.war" afterDir="false" />
@@ -19,9 +21,11 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestSignIn_tk25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestSignIn_tk25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,8 +387,16 @@
       <workItem from="1576407790478" duration="4189000" />
       <workItem from="1576481038795" duration="30718000" />
       <workItem from="1577278144200" duration="6994000" />
-      <workItem from="1577332494773" duration="3896000" />
+      <workItem from="1577332494773" duration="4736000" />
     </task>
+    <task id="LOCAL-00001" summary="222">
+      <created>1577366270510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577366270510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +412,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="222" />
+    <option name="LAST_COMMIT_MESSAGE" value="222" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1576498762565">
@@ -418,6 +434,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="435" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1576408455972" />
+    <state x="546" y="110" key="CommitChangelistDialog2" timestamp="1577366269109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="546" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577366269109" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1577282392653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -474,6 +494,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="86" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577278094982" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577367409580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577367409580" />
     <state x="679" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1577366233060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
