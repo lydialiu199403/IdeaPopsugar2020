@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="156704" started-at="2019-12-26T09:23:11 CST" finished-at="2019-12-26T09:25:47 CST">
+    <groups>
+    </groups>
+    <test name="E:/eclipse-popsugar/popsugar1215" duration-ms="156704" started-at="2019-12-26T09:23:11 CST" finished-at="2019-12-26T09:25:47 CST">
+      <class name="popsugar.selenium.testCase.TestSignIn_tk25">
+        <test-method status="PASS" signature="getSignInHome()[pri:0, instance:popsugar.selenium.testCase.TestSignIn_tk25@1bce4f0a]" name="getSignInHome" is-config="true" duration-ms="45191" started-at="2019-12-26T09:23:11 CST" finished-at="2019-12-26T09:23:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSignInHome -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:popsugar.selenium.testCase.TestSignIn_tk25@1bce4f0a]" name="signIn" duration-ms="111465" started-at="2019-12-26T09:23:56 CST" finished-at="2019-12-26T09:25:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- popsugar.selenium.testCase.TestSignIn_tk25 -->
+    </test> <!-- E:/eclipse-popsugar/popsugar1215 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
