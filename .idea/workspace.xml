@@ -7,77 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8056790d-3191-447f-abf6-90e17014460e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/base/SelectDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/base/SelectDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/animal-sniffer-annotations-1.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/ant-1.10.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/ant-launcher-1.10.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/commons-exec-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/error_prone_annotations-2.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/guava-27.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/okhttp-3.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/okio-1.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-api-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-chrome-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-edge-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-firefox-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-firefox-xpi-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-ie-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-java-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-opera-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-remote-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-safari-driver-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/lib/selenium-support-4.0.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/popsugar1215-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestSignIn_tk25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestSignIn_tk25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/casefortest/testScroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/casefortest/testScroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/casefortest/testngcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/casefortest/testngcase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/DriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/DriverBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/SelectDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/SelectDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/HomePagePro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/HomePagePro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/LoginPagePro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/LoginPagePro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/HomePageHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/HomePageHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/LoginPageHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/LoginPageHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/CaseBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/CaseBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/TestSignIn_tk25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/TestSignIn_tk25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/testCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/testCookie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/HandleCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/HandleCookie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/PropUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/PropUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/getByLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/getByLocator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +88,7 @@
       <recent name="E:\eclipse-popsugar\popsugar1215\src\test\java\popsugar\selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testCookie (1)">
+  <component name="RunManager" selected="TestNG.TestSignIn_tk25 (1)">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -183,6 +116,23 @@
       <module name="popsugar1215" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignIn_tk25 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IdeaPopsugar2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="popsugar.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="popsugar.selenium.testCase" />
+      <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.TestSignIn_tk25" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -234,24 +184,6 @@
       <option name="PACKAGE_NAME" value="popsugar.selenium.testCase" />
       <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.testCookie" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testCookie.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="popsugar1215" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popsugar.selenium.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="popsugar.selenium.testCase" />
-      <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.testCookie" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -394,20 +326,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.testCookie.test" />
       <item itemvalue="TestNG.testCookie" />
       <item itemvalue="TestNG.TestSignIn_tk25" />
       <item itemvalue="TestNG.E:/eclipse-popsugar/popsugar1215/testng.xml" />
-      <item itemvalue="Tomcat Server.Mavenproject" />
       <item itemvalue="TestNG.testCookie (1)" />
+      <item itemvalue="TestNG.TestSignIn_tk25 (1)" />
+      <item itemvalue="Tomcat Server.Mavenproject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSignIn_tk25 (1)" />
         <item itemvalue="TestNG.testCookie (1)" />
         <item itemvalue="TestNG.E:/eclipse-popsugar/popsugar1215/testng.xml" />
         <item itemvalue="TestNG.TestSignIn_tk25" />
         <item itemvalue="TestNG.testCookie" />
-        <item itemvalue="TestNG.testCookie.test" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +374,16 @@
       <workItem from="1576481038795" duration="30718000" />
       <workItem from="1577278144200" duration="6994000" />
       <workItem from="1577332494773" duration="4736000" />
-      <workItem from="1577955648275" duration="4465000" />
+      <workItem from="1577955648275" duration="5216000" />
+      <workItem from="1577983797356" duration="698000" />
+      <workItem from="1578031017790" duration="1327000" />
+      <workItem from="1578109755022" duration="2369000" />
+      <workItem from="1578115295879" duration="5603000" />
+      <workItem from="1578123681838" duration="904000" />
+      <workItem from="1578124596753" duration="880000" />
+      <workItem from="1578125488636" duration="1188000" />
+      <workItem from="1578126752886" duration="119000" />
+      <workItem from="1578126944449" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1577366270510</created>
@@ -479,10 +420,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576498762565" />
-    <state x="442" y="167" width="1092" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577957810899">
+    <state x="442" y="167" width="1092" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578124998968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="442" y="167" width="1092" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577957810899" />
+    <state x="442" y="167" width="1092" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578124998968" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1577195743251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,22 +448,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="289" y="305" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577959374221" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577959923645">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577962871383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577959923645" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577959923645">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577962871383" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577962871383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577959923645" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577959923645">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577962871383" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577962871383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577959923645" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577959923645">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577962871383" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577962871383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577959923645" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577962871383" />
     <state width="1293" height="346" key="GridCell.Tab.1.bottom" timestamp="1577323915908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -555,10 +496,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577323915908" />
-    <state x="468" y="86" key="SettingsEditor" timestamp="1577959380893">
+    <state x="468" y="86" key="SettingsEditor" timestamp="1578124652796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="468" y="86" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577959380893" />
+    <state x="468" y="86" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578124652796" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577367458471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -567,14 +508,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577366233060" />
-    <state x="668" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1577955650160">
+    <state x="668" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1578126944996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="336" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577955650160" />
-    <state x="260" y="326" key="new project wizard" timestamp="1576408359535">
+    <state x="668" y="336" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578126944996" />
+    <state x="260" y="261" key="new project wizard" timestamp="1578123850129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="326" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576408359535" />
+    <state x="260" y="261" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578123850129" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1577195915950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
