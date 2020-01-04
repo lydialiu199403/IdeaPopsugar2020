@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8056790d-3191-447f-abf6-90e17014460e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +380,7 @@
       <workItem from="1578124596753" duration="880000" />
       <workItem from="1578125488636" duration="1188000" />
       <workItem from="1578126752886" duration="119000" />
-      <workItem from="1578126944449" duration="900000" />
+      <workItem from="1578126944449" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1577366270510</created>
@@ -392,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577366270510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="222">
+      <created>1578136259444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578136259444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,10 +444,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577956598968" />
-    <state x="546" y="110" key="CommitChangelistDialog2" timestamp="1577367453226">
+    <state x="546" y="110" key="CommitChangelistDialog2" timestamp="1578136257549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="546" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577367453226" />
+    <state x="546" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578136257549" />
     <state x="289" y="305" key="FileChooserDialogImpl" timestamp="1577959374221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -500,10 +504,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="86" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578124652796" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577367458471">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578136377517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577367458471" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578136377517" />
     <state x="679" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1577366233060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
