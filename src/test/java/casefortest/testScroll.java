@@ -25,7 +25,7 @@ public class testScroll {
 	@Test
 	public void actions() {
 		//设置驱动所在位置
-		System.setProperty("webdriver.chrome.driver", "E:\\\\dependency pac\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Program Files\\chromedriver\\chromedriver.exe");
 		//引用火狐浏览器驱动
 		WebDriver driver = new ChromeDriver();
 		//打开禅道界面

@@ -1,17 +1,19 @@
 package popsugar.selenium.handle;
 
-import popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+//import popsugar.selenium.base.DriverBase;
 import popsugar.selenium.page.HomePage;
 
 import java.io.IOException;
 
 public class HomePageHandle {
-    public DriverBase driverBase;
+//    public DriverBase driverBase;
     public HomePage homePage;
+    public WebDriver driver;
 
-    public HomePageHandle(DriverBase driverBase) {
-        this.driverBase = driverBase;
-        homePage = new HomePage(driverBase);
+    public HomePageHandle(WebDriver driver) {
+        this.driver = driver;
+        homePage = new HomePage(driver);
     }
 
     /**
@@ -19,7 +21,7 @@ public class HomePageHandle {
      * @throws IOException
      * */
     public void clickHamMenuElement() throws IOException {
-        driverBase.click(homePage.getHamMenuElement());
+        homePage.getHamMenuElement().click();
     }
 
     /**
@@ -27,7 +29,7 @@ public class HomePageHandle {
      * @throws IOException
      * */
     public void clickLoginElement() throws IOException {
-        driverBase.click(homePage.getLoginMenuElement());
+        homePage.getLoginMenuElement().click();
     }
 
     /**
@@ -35,13 +37,14 @@ public class HomePageHandle {
      * @throws IOException
      * */
     public void clickProfileMenuElement() throws IOException {
-        driverBase.click(homePage.getProfileElement());
+        homePage.getProfileElement().click();
     }
     /*
     * 获取当前URL
     * */
     public String getCurrentURL(){
-        return driverBase.getCurrentUrl();
+
+        return driver.getCurrentUrl();
     }
 
 }

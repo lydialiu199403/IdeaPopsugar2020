@@ -1,15 +1,17 @@
 package popsugar.selenium.util;
 
 import org.openqa.selenium.Cookie;
-import popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+//import popsugar.selenium.base.DriverBase;
 
 import java.io.IOException;
 import java.util.Set;
 
 public class HandleCookie {
-    public DriverBase driver;
+//    public DriverBase driver;
     public PropUtil pro;
-    public HandleCookie(DriverBase driver) throws IOException {
+    public WebDriver driver;
+    public HandleCookie(WebDriver driver) throws IOException {
         super();
         this.driver = driver;
 //        this.pro = new PropUtil("E:\\eclipse-popsugar\\popsugar1215\\src\\test\\java\\popsugar\\selenium\\data\\cookie.properties");
@@ -22,11 +24,14 @@ public class HandleCookie {
 //		System.out.println(value);
         Cookie cookie = new Cookie("ss1",value,"secure.dev10.onsugar.com","/",null);
 //		System.out.println(cookie);
-        driver.setCookie(cookie);
+//        driver.setCookie(cookie);
+        driver.manage().addCookie(cookie);
     }
 
     public void writeCookie() throws IOException {
-        Set<Cookie> cookies = driver.getCookie();
+//        Set<Cookie> cookies = driver.getCookie();
+        Set<Cookie> cookies = driver.manage().getCookies();
+
         for(Cookie cookie:cookies) {
             if(cookie.getName().equals("ss1")) {
                 pro.writePro(cookie.getName(), cookie.getValue());

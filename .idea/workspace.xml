@@ -7,8 +7,148 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8056790d-3191-447f-abf6-90e17014460e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/TestNGListennerSendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryDelPicPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryHybridPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryMulPicPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryReverseOrderPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryShoppablePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateRecipePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFacebookPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFrontPagePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPicSourcePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPinterestPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextShoppablePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTallImagePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextThumbnailPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTwitterPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateVhubPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateGalleryHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateRecipeHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateTextHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateVhubHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateGalleryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateRecipePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateTextPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateVhubPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/GalleryPostPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFacebookImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFrontPageImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryDelPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryMulPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateHybridGallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreatePinterestImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableGallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTallImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTextPicSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateThunbnailImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTwitterImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateVhub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/SendFileMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/TestCaseReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateGalleryData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateGalleryElement.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateRecipeData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateRecipeElement.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateTextData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateTextElement.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateVhubData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateVhubElement.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/GalleryPostElement.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/popsugar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopsugarBefore/Popsugar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popsugar1215.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/casefortest/testScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/casefortest/testScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/base/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/base/SelectDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/HomePagePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/HomePagePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/LoginPagePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/LoginPagePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/HomePageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/HomePageHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/LoginPageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/LoginPageHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/CaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/CaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestSignIn_tk25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestSignIn_tk25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/testCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/testCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/HandleCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/HandleCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/getByLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/getByLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestSignIn_tk25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/E__eclipse-popsugar_popsugar1215.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/casefortest/testScroll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/casefortest/testngcase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/DriverBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/base/SelectDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/HomePagePro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/business/LoginPagePro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/HomePageHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/handle/LoginPageHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/page/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/CaseBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/TestSignIn_tk25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/testCase/testCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/HandleCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/PropUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/popsugar/selenium/util/getByLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +197,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1V15W0gK9uHtBi3nTh94Ymszl6W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,25 +210,56 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea_project\IdeaPopsugar2019\src\test\resources" />
+      <recent name="E:\Idea_project\IdeaPopsugar2019\src\test\java\popsugar\selenium\testCase" />
+      <recent name="E:\Idea_project\IdeaPopsugar2019\src\test\java\popsugar\selenium\business" />
+      <recent name="E:\Idea_project\IdeaPopsugar2019\src\test\java\popsugar\selenium\handle" />
+      <recent name="E:\Idea_project\IdeaPopsugar2019\src\test\java\popsugar\selenium\page" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="popsugar.selenium.util" />
+      <recent name="popsugar.selenium" />
+      <recent name="testpage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\eclipse-popsugar\popsugar1215\src\test\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="testpage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\eclipse-popsugar\popsugar1215\src\test\resources" />
-      <recent name="E:\eclipse-popsugar\popsugar1215\src\test\java\popsugar\selenium" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSignIn_tk25 (1)">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.testCookie">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.Test" />
+      <module name="popsugar1215" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="popsugar.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -109,27 +283,10 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="E:/eclipse-popsugar/popsugar1215/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E:/Idea_project/IdeaPopsugar2019/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="popsugar1215" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignIn_tk25 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IdeaPopsugar2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popsugar.selenium.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="popsugar.selenium.testCase" />
-      <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.TestSignIn_tk25" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,8 +310,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCookie (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IdeaPopsugar2019" />
+    <configuration name="testCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="popsugar1215" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="popsugar.selenium.testCase.*" />
@@ -170,16 +327,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testScroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="popsugar1215" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="popsugar.selenium.testCase.*" />
+          <option name="PATTERN" value="casefortest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="popsugar.selenium.testCase" />
-      <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.testCookie" />
+      <option name="PACKAGE_NAME" value="casefortest" />
+      <option name="MAIN_CLASS_NAME" value="casefortest.testScroll" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -323,39 +480,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="TestNG.testScroll" />
       <item itemvalue="TestNG.testCookie" />
       <item itemvalue="TestNG.TestSignIn_tk25" />
-      <item itemvalue="TestNG.E:/eclipse-popsugar/popsugar1215/testng.xml" />
-      <item itemvalue="TestNG.testCookie (1)" />
-      <item itemvalue="TestNG.TestSignIn_tk25 (1)" />
+      <item itemvalue="TestNG.E:/Idea_project/IdeaPopsugar2019/testng.xml" />
       <item itemvalue="Tomcat Server.Mavenproject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSignIn_tk25 (1)" />
-        <item itemvalue="TestNG.testCookie (1)" />
-        <item itemvalue="TestNG.E:/eclipse-popsugar/popsugar1215/testng.xml" />
-        <item itemvalue="TestNG.TestSignIn_tk25" />
         <item itemvalue="TestNG.testCookie" />
+        <item itemvalue="TestNG.E:/Idea_project/IdeaPopsugar2019/testng.xml" />
+        <item itemvalue="TestNG.TestSignIn_tk25" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.testScroll" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -380,7 +520,11 @@
       <workItem from="1578124596753" duration="880000" />
       <workItem from="1578125488636" duration="1188000" />
       <workItem from="1578126752886" duration="119000" />
-      <workItem from="1578126944449" duration="4345000" />
+      <workItem from="1578126944449" duration="4452000" />
+      <workItem from="1578286524900" duration="424000" />
+      <workItem from="1578286964477" duration="5261000" />
+      <workItem from="1578304435237" duration="10586000" />
+      <workItem from="1578319170120" duration="4780000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1577366270510</created>

@@ -1,7 +1,8 @@
 package popsugar.selenium.business;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import popsugar.selenium.base.DriverBase;
+//import popsugar.selenium.base.DriverBase;
 import popsugar.selenium.handle.HomePageHandle;
 
 import java.io.IOException;
@@ -9,15 +10,17 @@ import java.io.IOException;
 public class HomePagePro {
 
     public HomePageHandle homePageH;
-    public DriverBase driverBase; //要用到DriverBase,就需要赋值，所以都会创建一个构造函数
-    public HomePagePro(DriverBase driverBase) {
-        driverBase = driverBase;
-        homePageH = new HomePageHandle(driverBase);
+//    public DriverBase driverBase; //要用到DriverBase,就需要赋值，所以都会创建一个构造函数
+    public WebDriver driver;
+    public HomePagePro(WebDriver driver) {
+        this.driver = driver;
+        homePageH = new HomePageHandle(driver);
     }
 
 
     //    执行HomePage页面所需的操作
     public void clickLoginMenu(){
+
         try {
             homePageH.clickHamMenuElement();
             try {

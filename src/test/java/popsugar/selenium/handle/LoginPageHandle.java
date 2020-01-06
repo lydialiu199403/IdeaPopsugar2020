@@ -1,17 +1,19 @@
 package popsugar.selenium.handle;
 
-import popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+//import popsugar.selenium.base.DriverBase;
 import popsugar.selenium.page.LoginPage;
 
 import java.io.IOException;
 
 public class LoginPageHandle {
-    public DriverBase driverBase;
+//    public DriverBase driverBase;
     public LoginPage loginPage;
+    public WebDriver driver;
 
-    public LoginPageHandle(DriverBase driverBase) {
-        this.driverBase = driverBase;
-        loginPage = new LoginPage(driverBase);
+    public LoginPageHandle(WebDriver driver) {
+        this.driver = driver;
+        loginPage = new LoginPage(driver);
     }
 
     /**
@@ -19,14 +21,15 @@ public class LoginPageHandle {
      * @throws IOException
      * */
     public void sendKeyUsername(String username) throws IOException {
-        driverBase.sendKeys(loginPage.getUsernameElement(),username);
+//        driverBase.sendKeys(loginPage.getUsernameElement(),username);
+        loginPage.getUsernameElement().sendKeys(username);
     }
 
     /**
      * 输入密码
      * */
     public void sendKeyUserpass(String userpass) throws IOException{
-        driverBase.sendKeys(loginPage.getUserpassElement(), userpass);
+        loginPage.getUserpassElement().sendKeys(userpass);
     }
 
     /**
@@ -35,7 +38,7 @@ public class LoginPageHandle {
      * */
     public void clickLoginButton() throws IOException {
 
-        driverBase.click(loginPage.getLoginButtonElement());
+        loginPage.getLoginButtonElement().click();
     }
 
 }

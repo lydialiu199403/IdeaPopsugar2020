@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E:/eclipse-popsugar/popsugar1215"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="51.548">
+  <properties />
+  
+  
+            <testcase name="test" time="51.548" classname="popsugar.selenium.testCase.testCookie" />
+      
+</testsuite>
