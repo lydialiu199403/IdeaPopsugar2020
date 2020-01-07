@@ -36,5 +36,12 @@ public class HomePage extends BasePage {
     public WebElement getProfileElement() throws IOException {
         return getElement(getByLocator.getLocator(filename,"profile-menu"));
     }
+    public WebElement getProfilePageUsernameElement() throws IOException {
+        return getElement(getByLocator.getLocator(filename,"profilePageUserNameElement"));
+    }
+
+    public WebElement getCMSPageUsernameElement() throws IOException{
+        return getElement(getByLocator.getLocator(filename,"CMSPageloggedUserNameElement"));
+    }
 
 }

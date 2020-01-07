@@ -3,11 +3,11 @@ package popsugar.selenium.util;
 import java.io.*;
 import java.util.Properties;
 
-public class PropUtil {
+public class ProUtil {
     private Properties prop;
     private String filepath;
 
-    public PropUtil(String filepath) throws IOException {
+    public ProUtil(String filepath) throws IOException {
         this.filepath = filepath;
         this.prop = readProperties();
     }

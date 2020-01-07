@@ -15,7 +15,7 @@ public class getByLocator {
     }
 
     public static By getLocator(String filename, String key) throws IOException {
-        PropUtil proUtil = new PropUtil(filename);
+        ProUtil proUtil = new ProUtil(filename);
         logger.debug("你的定位信息Key为"+key);
         String locator = proUtil.getPro(key);
         String locatorType = locator.split(">")[0];

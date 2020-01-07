@@ -43,8 +43,15 @@ public class HomePageHandle {
     * 获取当前URL
     * */
     public String getCurrentURL(){
-
         return driver.getCurrentUrl();
+    }
+
+    public String getProfilePageUsername() throws IOException {
+        return homePage.getProfilePageUsernameElement().getText();
+    }
+
+    public String getCMSPageUsername() throws IOException {
+        return homePage.getCMSPageUsernameElement().getText();
     }
 
 }

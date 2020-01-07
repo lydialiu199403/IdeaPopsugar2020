@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 //import popsugar.selenium.base.DriverBase;
 import popsugar.selenium.util.HandleCookie;
-import popsugar.selenium.util.PropUtil;
+import popsugar.selenium.util.ProUtil;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ public class testCookie extends CaseBase{
 //    public DriverBase driver;
     public WebDriver driver;
     public HandleCookie handleCookie;
-    public PropUtil pro;
+    public ProUtil pro;
     static Logger logger = Logger.getLogger(testCookie.class);
 
     @Test
@@ -25,7 +25,7 @@ public class testCookie extends CaseBase{
         logger.debug("打开浏览器");
         driver = getDriver("chrome");
         handleCookie = new HandleCookie(driver);
-        pro = new PropUtil("src/test/resources/cookie.properties");
+        pro = new ProUtil("src/test/resources/cookie.properties");
         driver.get("https://popsugar.dev10.onsugar.com");
         driver.manage().window().maximize();
 //        driver.maxWindow();

@@ -1,16 +1,17 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateTextHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.handle.CreateTextHandle;
 
 import java.io.IOException;
 
 public class CreateTextPro {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateTextHandle createTH;
 	
-	public CreateTextPro(DriverBase driver) {
+	public CreateTextPro(WebDriver driver) {
 		this.driver = driver;
 		createTH = new CreateTextHandle(driver);
 	}	

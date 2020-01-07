@@ -31,3 +31,11 @@
 2020-01-06 23:19:56 - [ DEBUG ]  popsugar.selenium.testCase.testCookie.test(testCookie.java:25) main popsugar.selenium.testCase.testCookie - 打开浏览器 
 2020-01-06 23:22:01 - [ DEBUG ]  popsugar.selenium.testCase.testCookie.test(testCookie.java:24) main popsugar.selenium.testCase.testCookie - 初始化浏览器 
 2020-01-06 23:22:01 - [ DEBUG ]  popsugar.selenium.testCase.testCookie.test(testCookie.java:25) main popsugar.selenium.testCase.testCookie - 打开浏览器 
+2020-01-07 22:15:42 - [ DEBUG ]  popsugar.selenium.testCase.TestCreateText.beforeClass(TestCreateText.java:31) main popsugar.selenium.testCase.TestCreateText - 初始化浏览器 
+2020-01-07 22:15:42 - [ DEBUG ]  popsugar.selenium.testCase.TestCreateText.beforeClass(TestCreateText.java:32) main popsugar.selenium.testCase.TestCreateText - 打开浏览器 
+2020-01-07 22:18:31 - [ DEBUG ]  popsugar.selenium.testCase.testCookie.test(testCookie.java:24) main popsugar.selenium.testCase.testCookie - 初始化浏览器 
+2020-01-07 22:18:31 - [ DEBUG ]  popsugar.selenium.testCase.testCookie.test(testCookie.java:25) main popsugar.selenium.testCase.testCookie - 打开浏览器 
+2020-01-07 22:20:39 - [ DEBUG ]  popsugar.selenium.testCase.TestCreateText.beforeClass(TestCreateText.java:31) main popsugar.selenium.testCase.TestCreateText - 初始化浏览器 
+2020-01-07 22:20:39 - [ DEBUG ]  popsugar.selenium.testCase.TestCreateText.beforeClass(TestCreateText.java:32) main popsugar.selenium.testCase.TestCreateText - 打开浏览器 
+2020-01-07 23:25:36 - [ DEBUG ]  popsugar.selenium.testCase.TestSignIn_tk25.getSignInHome(TestSignIn_tk25.java:41) main popsugar.selenium.testCase.TestSignIn_tk25 - 初始化浏览器 
+2020-01-07 23:25:36 - [ DEBUG ]  popsugar.selenium.testCase.TestSignIn_tk25.getSignInHome(TestSignIn_tk25.java:42) main popsugar.selenium.testCase.TestSignIn_tk25 - 打开浏览器 

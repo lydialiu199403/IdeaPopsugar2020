@@ -9,13 +9,13 @@ import java.util.Set;
 
 public class HandleCookie {
 //    public DriverBase driver;
-    public PropUtil pro;
+    public ProUtil pro;
     public WebDriver driver;
     public HandleCookie(WebDriver driver) throws IOException {
         super();
         this.driver = driver;
 //        this.pro = new PropUtil("E:\\eclipse-popsugar\\popsugar1215\\src\\test\\java\\popsugar\\selenium\\data\\cookie.properties");
-        this.pro = new PropUtil("src/test/resources/cookie.properties");
+        this.pro = new ProUtil("src/test/resources/cookie.properties");
 
     }
 

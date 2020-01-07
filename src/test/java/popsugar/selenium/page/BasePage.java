@@ -1,9 +1,10 @@
 package popsugar.selenium.page;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+
+import java.util.List;
+import java.util.Set;
 
 
 /*BasePage里面二次封装driver方法，供各page用*/
@@ -50,6 +51,99 @@ public class BasePage {
     public void maxWindow() {
         driver.manage().window().maximize();
     }
+
+    /*封装元素是否可见方法*/
+    public boolean assertElementIsDisPlay(WebElement element) {
+        return element.isDisplayed();
+    }
+
+    /*封装元素是否是显示的*/
+    public boolean assertTagName(WebElement element,String text) {
+        return element.getTagName().equals(text);
+    }
+    /*封装元素是否可见方法*/
+    public boolean assertElementIs(WebElement element) {
+        return element.isDisplayed();
+    }
+
+    /*通过父节点获取子节点方法*/
+    public WebElement nodeElement(By by,By nodeBy) {
+        WebElement element = this.getElement(by);
+        return element.findElement(nodeBy);
+    }
+
+    /*封装获取多个elements方法*/
+    public List<WebElement> getElements(By by, By nodeBy) {
+        WebElement element = this.getElement(by);
+        return element.findElements(nodeBy);
+    }
+
+    public List<WebElement> elements(By by) {
+        return driver.findElements(by);
+    }
+
+    /*滚动页面至指定元素位置*/
+    public void scrollToElement(WebElement element) {
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
+    }
+
+    public void scrollToPixel() {
+        ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,750)");
+    }
+
+    /**
+     * 封装输入sendkeys方法
+     * */
+    public void sendKeys(WebElement element,String value) {
+        element.sendKeys(value);
+    }
+
+    /**
+     * 封装click方法
+     * */
+    public void click(WebElement element) {
+        element.click();
+    }
+
+
+
+    /**
+     * 封装driver
+     * */
+    public WebDriver driver() {
+        return this.driver;
+    }
+
+    /**
+     * 封装close
+     * */
+    public void close() {
+        driver.close();
+    }
+
+    /**
+     * 封装setCookie
+     * */
+    public void setCookie(Cookie cookie){
+        driver.manage().addCookie(cookie);
+    }
+
+    /**
+     * 封装getCookie
+     * */
+    public Set<Cookie> getCookie() {
+        Set<Cookie> cookies = driver.manage().getCookies();
+        return cookies;
+
+    }
+    /**
+     * 封装获取当前Url方法
+     * */
+    public String getCurrentUrl() {
+        String currentUrl = driver.getCurrentUrl();
+        return currentUrl;
+    }
+
 
 
 
