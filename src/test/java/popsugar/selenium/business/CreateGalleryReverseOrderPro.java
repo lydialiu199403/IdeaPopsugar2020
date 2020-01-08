@@ -1,15 +1,16 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateGalleryHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.handle.CreateGalleryHandle;
 
 import java.io.IOException;
 
 public class CreateGalleryReverseOrderPro {
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateGalleryHandle createGH;
 	
-	public CreateGalleryReverseOrderPro(DriverBase driver) {
+	public CreateGalleryReverseOrderPro(WebDriver driver) {
 		this.driver = driver;
 		createGH = new CreateGalleryHandle(driver);
 	}

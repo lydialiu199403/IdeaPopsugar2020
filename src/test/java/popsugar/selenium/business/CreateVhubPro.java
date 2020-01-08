@@ -1,16 +1,17 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateVhubHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.handle.CreateVhubHandle;
 
 import java.io.IOException;
 
 public class CreateVhubPro {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateVhubHandle createVH;
 	
-	public CreateVhubPro(DriverBase driver) {
+	public CreateVhubPro(WebDriver driver) {
 		this.driver = driver;
 		createVH = new CreateVhubHandle(driver);
 	}	

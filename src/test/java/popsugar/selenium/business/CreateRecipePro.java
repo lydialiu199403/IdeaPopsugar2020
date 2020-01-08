@@ -1,16 +1,17 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateRecipeHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import popsugar.selenium.handle.CreateRecipeHandle;
+import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 
 public class CreateRecipePro {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateRecipeHandle createRH;
 	
-	public CreateRecipePro(DriverBase driver) {
+	public CreateRecipePro(WebDriver driver) {
 		this.driver = driver;
 		createRH = new CreateRecipeHandle(driver);
 	}	

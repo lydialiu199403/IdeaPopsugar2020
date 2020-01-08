@@ -9,9 +9,9 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="E:/eclipse-popsugar/popsugar1215">
         <classes>
-            <class name="popsugar.selenium.testCase.testCookie">
+            <class name="popsugar.selenium.testCase.TestCreateVhub">
                 <methods>
-                    <include name="test"/>
+                    <include name="createVhubTest"/>
                 </methods>
             </class>
         </classes>

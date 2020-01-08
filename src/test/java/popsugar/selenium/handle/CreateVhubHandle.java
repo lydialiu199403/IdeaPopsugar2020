@@ -1,16 +1,17 @@
 package popsugar.selenium.handle;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.page.CreateVhubPage;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.page.CreateVhubPage;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
 
 public class CreateVhubHandle {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateVhubPage createVP;
-	public CreateVhubHandle(DriverBase driver) {
+	public CreateVhubHandle(WebDriver driver) {
 		this.driver = driver;
 		createVP = new CreateVhubPage(driver);
 	}
@@ -22,12 +23,12 @@ public class CreateVhubHandle {
 	
 	/*输入Headline*/
 	public void sendKeyHeadlineElement(String Headline) throws IOException {
-		driver.sendKeys(createVP.getHeadlineElement(), Headline);
+		createVP.sendKeys(createVP.getHeadlineElement(), Headline);
 	}
 	
 	/*输入Seo title*/
 	public void sendKeySeoTitleElement(String SeoTitle) throws IOException {
-		driver.sendKeys(createVP.getSEOTitleElement(), SeoTitle);
+		createVP.sendKeys(createVP.getSEOTitleElement(), SeoTitle);
 	}
 	
 	/*选择Intended Audience*/
@@ -38,11 +39,11 @@ public class CreateVhubHandle {
 	
 	/*输入Tags*/
 	public void sendKeyTagsElement(String Tags) throws IOException {
-		driver.sendKeys(createVP.getTagsElement(), Tags);
+		createVP.sendKeys(createVP.getTagsElement(), Tags);
 	}
 	
 	/*点击Create post 按钮*/
 	public void clickCreatePostElement() throws IOException {
-		driver.click(createVP.getCreatePostElement());
+		createVP.click(createVP.getCreatePostElement());
 	}
 }

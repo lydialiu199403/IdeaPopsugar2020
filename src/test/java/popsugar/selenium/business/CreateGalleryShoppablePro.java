@@ -1,15 +1,16 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateGalleryHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import popsugar.selenium.handle.CreateGalleryHandle;
+import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 
 public class CreateGalleryShoppablePro {
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateGalleryHandle createGH;
 	
-	public CreateGalleryShoppablePro(DriverBase driver) {
+	public CreateGalleryShoppablePro(WebDriver driver) {
 		this.driver = driver;
 		createGH = new CreateGalleryHandle(driver);
 	}

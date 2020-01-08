@@ -1,19 +1,21 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateGalleryHandle;
-import com.popsugar.selenium.handle.CreateTextHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.JavascriptExecutor;
+import popsugar.selenium.handle.CreateGalleryHandle;
+import popsugar.selenium.handle.CreateTextHandle;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import java.io.IOException;
 
 public class CreateTextTwitterPro {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateTextHandle createTH;
 	public CreateGalleryHandle createGH;
 	
-	public CreateTextTwitterPro(DriverBase driver) {
+	public CreateTextTwitterPro(WebDriver driver) {
 		this.driver = driver;
 		createTH = new CreateTextHandle(driver);
 		createGH = new CreateGalleryHandle(driver);
@@ -29,7 +31,8 @@ public class CreateTextTwitterPro {
 			Thread.sleep(2000);
 			createTH.sendKeyBodyElement(Body);
 			createTH.sendKeyTagsElement(Tags);
-			driver.scrollToPixel();
+//			driver.scrollToPixel();
+			((JavascriptExecutor)driver).executeScript("window.scrollBy(0,750)");
 			Thread.sleep(3000);
 			createTH.clickUploadImageElement(photopath);
 			Thread.sleep(2000);

@@ -1,7 +1,7 @@
 package popsugar.selenium.handle;
 
 
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebDriver;
 import popsugar.selenium.page.CreateTextPage;
 import popsugar.selenium.page.GalleryPostPage;

@@ -10,24 +10,71 @@
       <change afterPath="$PROJECT_DIR$/../PopsugarBefore/Popsugar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时28分46秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时30分18秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时43分19秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时44分14秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时48分10秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时50分33秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时52分25秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时57分19秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时00分42秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时37分22秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时47分49秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时49分58秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时52分44秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-23时03分36秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/HomePagePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/HomePagePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryDelPicPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryDelPicPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryHybridPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryHybridPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryMulPicPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryMulPicPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryReverseOrderPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryReverseOrderPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryShoppablePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateGalleryShoppablePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateRecipePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateRecipePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFacebookPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFacebookPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFrontPagePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextFrontPagePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPicSourcePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPicSourcePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPinterestPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextPinterestPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextShoppablePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextShoppablePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTallImagePro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTallImagePro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextThumbnailPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextThumbnailPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTwitterPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateTextTwitterPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateVhubPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/business/CreateVhubPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateGalleryHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateGalleryHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateRecipeHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateRecipeHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateTextHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateTextHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/HomePageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/HomePageHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestSignIn_tk25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestSignIn_tk25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/testCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/testCookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/HandleCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/HandleCookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/PropUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/ProUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/getByLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/util/getByLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateVhubHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/handle/CreateVhubHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateGalleryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateGalleryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateRecipePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateRecipePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateVhubPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/CreateVhubPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/GalleryPostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/page/GalleryPostPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFacebookImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFacebookImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFrontPageImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateFrontPageImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryDelPic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryDelPic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryMulPic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryMulPic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryReverseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateGalleryReverseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateHybridGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateHybridGallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreatePinterestImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreatePinterestImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableGallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateShoppableText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTallImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTallImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTextPicSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTextPicSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateThunbnailImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateThunbnailImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTwitterImageText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateTwitterImageText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateVhub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/popsugar/selenium/testCase/TestCreateVhub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CreateGalleryData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CreateGalleryData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CreateRecipeData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CreateRecipeData.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/CreateTextData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CreateTextData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SignIn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SignIn.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SignIn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SignIn.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CreateVhubData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CreateVhubData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +138,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -127,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSignIn_tk25">
+  <component name="RunManager" selected="TestNG.TestCreateText">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="popsugar.selenium.testCase.Test" />
       <module name="popsugar1215" />
@@ -138,7 +186,7 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -394,11 +442,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSignIn_tk25" />
         <item itemvalue="TestNG.TestCreateText" />
-        <item itemvalue="TestNG.testCookie" />
         <item itemvalue="TestNG.E:/Idea_project/IdeaPopsugar2019/testng.xml" />
+        <item itemvalue="TestNG.testCookie" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.TestSignIn_tk25" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +478,8 @@
       <workItem from="1578286964477" duration="5261000" />
       <workItem from="1578304435237" duration="10586000" />
       <workItem from="1578319170120" duration="5098000" />
-      <workItem from="1578397881548" duration="11015000" />
+      <workItem from="1578397881548" duration="13488000" />
+      <workItem from="1578488991742" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1577366270510</created>

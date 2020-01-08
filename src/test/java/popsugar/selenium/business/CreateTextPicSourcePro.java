@@ -1,16 +1,18 @@
 package popsugar.selenium.business;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.handle.CreateTextHandle;
+//import com.popsugar.selenium.base.DriverBase;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.handle.CreateTextHandle;
 
 import java.io.IOException;
 
 public class CreateTextPicSourcePro {
 
-	public DriverBase driver;
+	public WebDriver driver;
 	public CreateTextHandle createTH;
 	
-	public CreateTextPicSourcePro(DriverBase driver) {
+	public CreateTextPicSourcePro(WebDriver driver) {
 		this.driver = driver;
 		createTH = new CreateTextHandle(driver);
 	}	
@@ -24,7 +26,8 @@ public class CreateTextPicSourcePro {
 			createTH.selectAudienceElement();
 			createTH.sendKeyBodyElement(Body);
 			createTH.sendKeyTagsElement(Tags);
-			driver.scrollToPixel();
+//			driver.scrollToPixel();
+			((JavascriptExecutor)driver).executeScript("window.scrollBy(0,750)");
 			Thread.sleep(3000);
 			createTH.sendKeyPicSourceElement(PicSource);
 			createTH.sendKeyPicSourceUrlElement(PicSourceUrl);

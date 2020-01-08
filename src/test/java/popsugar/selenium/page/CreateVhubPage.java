@@ -1,27 +1,28 @@
 package popsugar.selenium.page;
 
-import com.popsugar.selenium.base.DriverBase;
-import com.popsugar.selenium.util.getByLocator;
+
+import org.openqa.selenium.WebDriver;
+import popsugar.selenium.util.getByLocator;
 import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 
 public class CreateVhubPage extends BasePage{
 
-	public String filename = "data/CreateVhubElement.properties";
-	public CreateVhubPage(DriverBase driver) {
+	public String filename = "src/test/resources/CreateVhubElement.properties";
+	public CreateVhubPage(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
 	
 	/*获取create vhub的element*/
 	public WebElement getCreateVhubElement() throws IOException{
-		return element(getByLocator.getLocator(filename, "CreateVhub"));
+		return getElement(getByLocator.getLocator(filename, "CreateVhub"));
 	}
 	
 	/*获取headline的element*/
 	public WebElement getHeadlineElement() throws IOException {
-		return element(getByLocator.getLocator(filename,"Headline"));
+		return getElement(getByLocator.getLocator(filename,"Headline"));
 	}
 	
 	/**
@@ -29,7 +30,7 @@ public class CreateVhubPage extends BasePage{
 	 * @throws IOException 
 	 * */
 	public WebElement getSEOTitleElement() throws IOException {
-		return element(getByLocator.getLocator(filename,"SeoTitle"));
+		return getElement(getByLocator.getLocator(filename,"SeoTitle"));
 	}
 	
 	/**
@@ -37,18 +38,18 @@ public class CreateVhubPage extends BasePage{
 	 * @throws IOException 
 	 * */
 	public WebElement getIntendedAudienceElement() throws IOException {
-		return element(getByLocator.getLocator(filename,"IntendedAudience"));
+		return getElement(getByLocator.getLocator(filename,"IntendedAudience"));
 	}
 	
 	
 	/*获取Tags的element*/	
 	public WebElement getTagsElement() throws IOException {
-		return element(getByLocator.getLocator(filename,"Tags"));
+		return getElement(getByLocator.getLocator(filename,"Tags"));
 	}
 	
 	/*获取Create Post 的element*/
 	public WebElement getCreatePostElement() throws IOException{
-		return element(getByLocator.getLocator(filename, "CreatePost"));
+		return getElement(getByLocator.getLocator(filename, "CreatePost"));
 	}
 
 }
