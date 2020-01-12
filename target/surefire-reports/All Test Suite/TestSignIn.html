@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  E:/eclipse-popsugar/popsugar1215</title>
+<title>TestNG:  TestSignIn</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>E:/eclipse-popsugar/popsugar1215</h2><table border='1' align="center">
+<h2 align='center'>TestSignIn</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 08 22:40:34 CST 2020</td>
+<td>Started on:</td><td>Sun Jan 12 16:10:43 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>83 seconds (83116 ms)</td>
+<tr><td>Total time:</td><td>452 seconds (452750 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,31 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='popsugar.selenium.testCase.TestCreateVhub.createVhubTest()'><b>createVhubTest</b><br>Test class: popsugar.selenium.testCase.TestCreateVhub</td>
-<td><div><pre>java.lang.NullPointerException
-	at popsugar.selenium.page.BasePage.assertElementIsDisPlay(BasePage.java:57)
-	at popsugar.selenium.handle.CreateVhubHandle.assertIsNewCreatePage(CreateVhubHandle.java:21)
-	at popsugar.selenium.business.CreateVhubPro.createVhub(CreateVhubPro.java:21)
-	at popsugar.selenium.testCase.TestCreateVhub.createVhubTest(TestCreateVhub.java:38)
+<td title='popsugar.selenium.testCase.TestCreateText.createTextTest()'><b>createTextTest</b><br>Test class: popsugar.selenium.testCase.TestCreateText</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;
+System info: host: &apos;DESKTOP-Q6E8PS0&apos;, ip: &apos;192.168.19.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\10279\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54608b00c671e9488c59675f65b22cd0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at popsugar.selenium.page.BasePage.click(BasePage.java:105)
+	at popsugar.selenium.handle.CreateTextHandle.clickCreatePostElement(CreateTextHandle.java:119)
+	at popsugar.selenium.business.CreateTextPro.createText(CreateTextPro.java:28)
+	at popsugar.selenium.testCase.TestCreateText.createTextTest(TestCreateText.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,12 +137,31 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-</pre></div><a href='#' onClick='toggleBox("stack-trace409565350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace409565350'><pre>java.lang.NullPointerException
-	at popsugar.selenium.page.BasePage.assertElementIsDisPlay(BasePage.java:57)
-	at popsugar.selenium.handle.CreateVhubHandle.assertIsNewCreatePage(CreateVhubHandle.java:21)
-	at popsugar.selenium.business.CreateVhubPro.createVhub(CreateVhubPro.java:21)
-	at popsugar.selenium.testCase.TestCreateVhub.createVhubTest(TestCreateVhub.java:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace506775047", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace506775047'><pre>org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;
+System info: host: &apos;DESKTOP-Q6E8PS0&apos;, ip: &apos;192.168.19.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\10279\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54608b00c671e9488c59675f65b22cd0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at popsugar.selenium.page.BasePage.click(BasePage.java:105)
+	at popsugar.selenium.handle.CreateTextHandle.clickCreatePostElement(CreateTextHandle.java:119)
+	at popsugar.selenium.business.CreateTextPro.createText(CreateTextPro.java:28)
+	at popsugar.selenium.testCase.TestCreateText.createTextTest(TestCreateText.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,8 +200,26 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </pre></div></td>
-<td>0</td>
-<td>popsugar.selenium.testCase.TestCreateVhub@501edcf1</td></tr>
+<td>315</td>
+<td>popsugar.selenium.testCase.TestCreateText@15c43bd9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='popsugar.selenium.testCase.TestSignIn_tk25.signIn()'><b>signIn</b><br>Test class: popsugar.selenium.testCase.TestSignIn_tk25</td>
+<td></td>
+<td>36</td>
+<td>popsugar.selenium.testCase.TestSignIn_tk25@76508ed1</td></tr>
+<tr>
+<td title='popsugar.selenium.testCase.testCookie.test()'><b>test</b><br>Test class: popsugar.selenium.testCase.testCookie</td>
+<td></td>
+<td>31</td>
+<td>popsugar.selenium.testCase.testCookie@41e36e46</td></tr>
 </table><p>
 </body>
 </html>

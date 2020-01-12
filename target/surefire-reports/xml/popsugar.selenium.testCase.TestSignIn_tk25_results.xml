@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSignIn"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="36.504">
+  <properties />
+  
+  
+            <testcase name="signIn" time="36.504" classname="popsugar.selenium.testCase.TestSignIn_tk25" />
+      
+</testsuite>

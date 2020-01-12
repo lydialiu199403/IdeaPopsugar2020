@@ -7,13 +7,15 @@
         <listener class-name="popsugar.selenium.util.TestCaseReport"></listener>
         <listener class-name="popsugar.selenium.TestNGListennerSendEmail"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="E:/eclipse-popsugar/popsugar1215">
+    <test verbose="2" preserve-order="true" name="TestSignIn">
         <classes>
-            <class name="popsugar.selenium.testCase.TestCreateVhub">
-                <methods>
-                    <include name="createVhubTest"/>
-                </methods>
+            <class name="popsugar.selenium.testCase.TestSignIn_tk25">
+<!--                <methods>-->
+<!--                    <include name="signIn"/>-->
+<!--                </methods>-->
             </class>
+            <class name="popsugar.selenium.testCase.testCookie"></class>
+            <class name="popsugar.selenium.testCase.TestCreateText"></class>
         </classes>
     </test>
 </suite>

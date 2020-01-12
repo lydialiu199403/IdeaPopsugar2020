@@ -65,15 +65,12 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
+
     </plugins>
   </build>
 
   <dependencies>
-    <!--dependency>
-      <groupId>org.example</groupId>
-      <artifactId>[the artifact id of the block to be mounted]</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency-->
+
     <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
       <groupId>junit</groupId>
@@ -120,14 +117,14 @@
       <artifactId>gson</artifactId>
       <version>2.8.6</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
     <dependency>
       <groupId>org.uncommons</groupId>
       <artifactId>reportng</artifactId>
-      <version>1.1.4</version>
-      <scope>test</scope>
+      <version>1.1.6</version>
+      <scope>system</scope>
+      <systemPath>E:/Idea_project/IdeaPopsugar2020/reportng-1.1.6.jar</systemPath>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+
     <dependency>
       <groupId>com.google.inject</groupId>
       <artifactId>guice</artifactId>
@@ -145,20 +142,6 @@
       <artifactId>guava</artifactId>
       <version>28.1-jre</version>
     </dependency>
-
-      <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
-   <!-- <dependency>
-      <groupId>com.beust</groupId>
-      <artifactId>jcommander</artifactId>
-      <version>1.27</version>
-    </dependency>-->
-    <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
-
-
-
-
-
-
 
 
   </dependencies>

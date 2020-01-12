@@ -1,10 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.881 sec <<< FAILURE!
-createVhubTest(popsugar.selenium.testCase.TestCreateVhub)  Time elapsed: 0.084 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at popsugar.selenium.page.BasePage.assertElementIsDisPlay(BasePage.java:57)
-	at popsugar.selenium.handle.CreateVhubHandle.assertIsNewCreatePage(CreateVhubHandle.java:21)
-	at popsugar.selenium.business.CreateVhubPro.createVhub(CreateVhubPro.java:21)
-	at popsugar.selenium.testCase.TestCreateVhub.createVhubTest(TestCreateVhub.java:38)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 453.336 sec <<< FAILURE!
+createTextTest(popsugar.selenium.testCase.TestCreateText)  Time elapsed: 315.023 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-Q6E8PS0', ip: '192.168.19.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\10279\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54608b00c671e9488c59675f65b22cd0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at popsugar.selenium.page.BasePage.click(BasePage.java:105)
+	at popsugar.selenium.handle.CreateTextHandle.clickCreatePostElement(CreateTextHandle.java:119)
+	at popsugar.selenium.business.CreateTextPro.createText(CreateTextPro.java:28)
+	at popsugar.selenium.testCase.TestCreateText.createTextTest(TestCreateText.java:42)

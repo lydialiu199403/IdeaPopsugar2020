@@ -7,15 +7,15 @@
     <listener class-name="popsugar.selenium.util.TestCaseReport"/>
     <listener class-name="popsugar.selenium.TestNGListennerSendEmail"/>
   </listeners>
-  <test thread-count="5" name="E:/eclipse-popsugar/popsugar1215(failed)" verbose="0">
+  <test thread-count="5" name="TestSignIn(failed)" verbose="0">
     <classes>
-      <class name="popsugar.selenium.testCase.TestCreateVhub">
+      <class name="popsugar.selenium.testCase.TestCreateText">
         <methods>
-          <include name="createVhubTest"/>
           <include name="beforeClass"/>
+          <include name="createTextTest"/>
           <include name="close"/>
         </methods>
-      </class> <!-- popsugar.selenium.testCase.TestCreateVhub -->
+      </class> <!-- popsugar.selenium.testCase.TestCreateText -->
     </classes>
-  </test> <!-- E:/eclipse-popsugar/popsugar1215(failed) -->
+  </test> <!-- TestSignIn(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

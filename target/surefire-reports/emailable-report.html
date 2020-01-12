@@ -9,15 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">All Test Suite</th></tr>
-<tr><td><a href="#t0">E:/eclipse-popsugar/popsugar1215</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">83,116</td><td></td><td></td></tr>
+<tr><td><a href="#t0">TestSignIn</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">452,750</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E:/eclipse-popsugar/popsugar1215 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">popsugar.selenium.testCase.TestCreateVhub</td><td><a href="#m0">createVhubTest</a></td><td rowspan="1">1578494517465</td><td rowspan="1">82</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestSignIn &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">popsugar.selenium.testCase.TestCreateText</td><td><a href="#m0">createTextTest</a></td><td rowspan="1">1578816781163</td><td rowspan="1">315019</td></tr><tr><th colspan="4">TestSignIn &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">popsugar.selenium.testCase.TestSignIn_tk25</td><td><a href="#m1">signIn</a></td><td rowspan="1">1578816678764</td><td rowspan="1">36504</td></tr><tr class="passedodd"><td rowspan="1">popsugar.selenium.testCase.testCookie</td><td><a href="#m2">test</a></td><td rowspan="1">1578816715310</td><td rowspan="1">31237</td></tr></tbody>
 </table>
-<h2>E:/eclipse-popsugar/popsugar1215</h2><h3 id="m0">popsugar.selenium.testCase.TestCreateVhub#createVhubTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at popsugar.selenium.page.BasePage.assertElementIsDisPlay(BasePage.java:57)
-	at popsugar.selenium.handle.CreateVhubHandle.assertIsNewCreatePage(CreateVhubHandle.java:21)
-	at popsugar.selenium.business.CreateVhubPro.createVhub(CreateVhubPro.java:21)
-	at popsugar.selenium.testCase.TestCreateVhub.createVhubTest(TestCreateVhub.java:38)
+<h2>TestSignIn</h2><h3 id="m0">popsugar.selenium.testCase.TestCreateText#createTextTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;
+System info: host: &apos;DESKTOP-Q6E8PS0&apos;, ip: &apos;192.168.19.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\10279\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54608b00c671e9488c59675f65b22cd0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at popsugar.selenium.page.BasePage.click(BasePage.java:105)
+	at popsugar.selenium.handle.CreateTextHandle.clickCreatePostElement(CreateTextHandle.java:119)
+	at popsugar.selenium.business.CreateTextPro.createText(CreateTextPro.java:28)
+	at popsugar.selenium.testCase.TestCreateText.createTextTest(TestCreateText.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,5 +75,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">popsugar.selenium.testCase.TestSignIn_tk25#signIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">popsugar.selenium.testCase.testCookie#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

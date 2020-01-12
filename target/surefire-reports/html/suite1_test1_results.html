@@ -3,44 +3,66 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - E:/eclipse-popsugar/popsugar1215</title>
+  <title>Test Results Report - TestSignIn</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>E:/eclipse-popsugar/popsugar1215</h1>
+<h1>TestSignIn</h1>
 <p>
-  Test duration: 83.100s
+  Test duration: 452.712s
 </p>
 
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">popsugar.selenium.testCase.TestCreateVhub</td>
-      </tr>
+    <table class="resultsTable">
+      <tr><th colspan="5" class="header failed">Failed Tests</th></tr>
+            <tr>
+            <td colspan="1" class="group">popsugar.selenium.testCase.TestCreateText</td>
+            <td colspan="1" class="group">Duration</td>
+            <td colspan="1" class="group">Log Info</td>
+            <td colspan="1" class="group">Screen Shot</td>
+        </tr>
             
 <tr>
   <td class="method">
-                  createVhubTest
+                  createTextTest
       </td>
   <td class="duration">
-    0.082s
+    315.019s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: timeout<br/>
+&nbsp; (Session info: chrome=79.0.3945.117)<br/>
+Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;<br/>
+System info: host: &apos;DESKTOP-Q6E8PS0&apos;, ip: &apos;192.168.19.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\10279\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 54608b00c671e9488c59675f65b22cd0</b></a><br />
     <div class="stackTrace" id="exception-0">
-              popsugar.selenium.page.BasePage.assertElementIsDisPlay(BasePage.java:57)<br />
-              popsugar.selenium.handle.CreateVhubHandle.assertIsNewCreatePage(CreateVhubHandle.java:21)<br />
-              popsugar.selenium.business.CreateVhubPro.createVhub(CreateVhubPro.java:21)<br />
-              popsugar.selenium.testCase.TestCreateVhub.createVhubTest(TestCreateVhub.java:38)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)<br />
+              popsugar.selenium.page.BasePage.click(BasePage.java:105)<br />
+              popsugar.selenium.handle.CreateTextHandle.clickCreatePostElement(CreateTextHandle.java:119)<br />
+              popsugar.selenium.business.CreateTextPro.createText(CreateTextPro.java:28)<br />
+              popsugar.selenium.testCase.TestCreateText.createTextTest(TestCreateText.java:42)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -80,10 +102,58 @@
               org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)<br />
                 </div>
       </td>
+
+    <td class="screenshot">
+                </td>
 </tr>
       </table>
+  
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">popsugar.selenium.testCase.TestSignIn_tk25</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  signIn
+      </td>
+  <td class="duration">
+    36.504s
+  </td>
+  <td class="result">
+        
+    
+        
 
+      </td>
+
+    <td class="screenshot">
+                </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">popsugar.selenium.testCase.testCookie</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  test
+      </td>
+  <td class="duration">
+    31.237s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+
+    <td class="screenshot">
+                </td>
+</tr>
+      </table>
   
 </body>
 </html>
