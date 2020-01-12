@@ -94,15 +94,14 @@
       <change afterPath="$PROJECT_DIR$/../popsugar2020/template.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../popsugar2020/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IdeaPopsugar2019" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaPopsugar2019" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时28分46秒report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时30分18秒report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时43分19秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时30分18秒report.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020年-01月-12日-16时10分43秒report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-20时43分19秒report.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020年-01月-11日-20时40分35秒report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时44分14秒report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时48分10秒report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时50分33秒report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时48分10秒report.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020年-01月-12日-15时06分47秒report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时50分33秒report.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020年-01月-11日-19时29分30秒report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时52分25秒report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-21时57分19秒report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时00分42秒report.html" beforeDir="false" />
@@ -111,38 +110,6 @@
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时49分58秒report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-22时52分44秒report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2020年-01月-06日-23时03分36秒report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__eclipse-popsugar_popsugar1215.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/sorttable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-popsugar.selenium.testCase.TestCreateVhub.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/E__eclipse-popsugar_popsugar1215.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/popsugar.selenium.testCase.TestCreateVhub_results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -558,7 +525,7 @@
       <workItem from="1578743687004" duration="2388000" />
       <workItem from="1578746393501" duration="928000" />
       <workItem from="1578795721348" duration="1132000" />
-      <workItem from="1578796871989" duration="6699000" />
+      <workItem from="1578796871989" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1577366270510</created>
@@ -595,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578325363631</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20200106 re-structure">
+      <created>1578818516165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578818516165</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

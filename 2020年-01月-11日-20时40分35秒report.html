@@ -7128,64 +7128,22 @@
 </script>
 <script type="text/javascript">
     var resultData = {
-  "testPass": 0,
+  "testPass": 1,
   "testSkip": 0,
-  "totalTime": "1239ms",
+  "totalTime": "33282ms",
   "testAll": 1,
-  "beginTime": "2020-01-06 20:30:18.823",
+  "beginTime": "2020-01-11 20:41:10.372",
   "testResult": [
     {
-      "className": "popsugar.selenium.testCase.testCookie",
-      "methodName": "test",
+      "className": "popsugar.selenium.testCase.TestCreateVhub",
+      "methodName": "createVhubTest",
       "description": "",
-      "spendTime": "1239ms",
-      "status": "失败",
-      "log": [
-        "java.lang.NoSuchMethodError: 'java.util.stream.Collector com.google.common.collect.ImmutableList.toImmutableList()'",
-        "    org.openqa.selenium.chrome.ChromeOptions.asMap(ChromeOptions.java:246)",
-        "    org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:94)",
-        "    org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)",
-        "    org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)",
-        "    org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)",
-        "    org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)",
-        "    org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)",
-        "    org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)",
-        "    org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:189)",
-        "    org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:176)",
-        "    org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:131)",
-        "    popsugar.selenium.testCase.CaseBase.getDriver(CaseBase.java:17)",
-        "    popsugar.selenium.testCase.testCookie.test(testCookie.java:22)",
-        "    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-        "    java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-        "    java.base/java.lang.reflect.Method.invoke(Method.java:567)",
-        "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)",
-        "    org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)",
-        "    org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)",
-        "    org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)",
-        "    org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)",
-        "    org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)",
-        "    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)",
-        "    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)",
-        "    java.base/java.util.ArrayList.forEach(ArrayList.java:1507)",
-        "    org.testng.TestRunner.privateRun(TestRunner.java:770)",
-        "    org.testng.TestRunner.run(TestRunner.java:591)",
-        "    org.testng.SuiteRunner.runTest(SuiteRunner.java:402)",
-        "    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)",
-        "    org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)",
-        "    org.testng.SuiteRunner.run(SuiteRunner.java:304)",
-        "    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)",
-        "    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)",
-        "    org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)",
-        "    org.testng.TestNG.runSuitesLocally(TestNG.java:1102)",
-        "    org.testng.TestNG.runSuites(TestNG.java:1032)",
-        "    org.testng.TestNG.run(TestNG.java:1000)",
-        "    org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)",
-        "    org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)"
-      ]
+      "spendTime": "33282ms",
+      "status": "成功",
+      "log": []
     }
   ],
-  "testFail": 1,
+  "testFail": 0,
   "testName": "Popsugar Selenium 测试报告"
 };
 
@@ -7315,7 +7273,7 @@
                 legend: {
                     orient: 'vertical',
                     left: 'left',
-                    data: ['失败', '跳过', '成功']
+                    data: ['失败', '跳过', '��功']
                 },
                 series: [
                     {
