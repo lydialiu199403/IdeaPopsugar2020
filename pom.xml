@@ -122,7 +122,7 @@
       <artifactId>reportng</artifactId>
       <version>1.1.6</version>
       <scope>system</scope>
-      <systemPath>E:/Idea_project/IdeaPopsugar2020/reportng-1.1.6.jar</systemPath>
+      <systemPath>reportng-1.1.6.jar</systemPath>
     </dependency>
 
     <dependency>
