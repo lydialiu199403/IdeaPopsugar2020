@@ -9,13 +9,13 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="TestSignIn">
         <classes>
-            <class name="popsugar.selenium.testCase.TestSignIn_tk25">
+<!--            <class name="popsugar.selenium.testCase.TestSignIn_tk25">-->
 <!--                <methods>-->
 <!--                    <include name="signIn"/>-->
 <!--                </methods>-->
-            </class>
+<!--            </class>-->
             <class name="popsugar.selenium.testCase.testCookie"></class>
-            <class name="popsugar.selenium.testCase.TestCreateText"></class>
+<!--            <class name="popsugar.selenium.testCase.TestCreateText"></class>-->
         </classes>
     </test>
 </suite>
